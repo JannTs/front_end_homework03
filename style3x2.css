@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100;0,400;0,500;1,100;1,400;1,500&display=swap');
+* {
+    /* Внешние отступы */
+    margin: 0;
+    /* Внутренние отступы */
+    padding: 0;
+}
+body {
+    /* Цвет фона */
+    background-color: whitesmoke;
+    /* Шрифт */
+    font-family: 'Raleway', sans-serif;
+    /* Толщина шрифта */
+    font-weight: 500;
+    /* Стилистика шрифта (курсив) */
+    font-style: italic;
+}
+.header {
+    height: 400px;
+    background-image: url('./Images/coffee-bgnd.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-style: normal;
+    font-size: 90px;
+    color: rgba(3, 150, 100, .75); /* 0.75 */
+    padding-top: 120px;
+    text-align: center;
+}
+
+/* existing CSS styles remain the same as above */
+/* =============================================*/
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 30%; /* Adjust the new width */
+  margin: 20px;
+  padding: 0;
+}
+
+.left,
+.right {
+  position: initial;
+}
+
+.left>div,
+.right>div,
+.column>div {
+  margin: 50px 0;
+  border-bottom: 1px solid #e4bb97;
+  padding-bottom: 60px;
+  height: auto;
+  overflow-y: auto;
+}
+/* existing CSS styles remain the same as below */
+/* =============================================*/
+.main div > p {
+  text-align: justify;
+  line-height: 1.5;
+  text-indent: 30px;
+  padding: 0 5px;
+  color: #454;
+  font-weight: 600;
+}
+h2 {
+  text-align: center;
+}
+
+
+
